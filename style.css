@@ -59,30 +59,72 @@ nav .btn{
     width: 100%;
 }
 select{
+    font-size: 17px;
     border: none;
     background-color: #F4F9FD;
+}
+.arrow-down{
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(90deg);
 }
 /* SECTION HERO */
 .hero{
     background-image: url(img/jumbotron.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y:bottom ;
+    background-position-y:center ;
     background-position-x: center;
-    padding: 100px 0px 400px 0px;
+    padding: 100px 0px 200px 0px;
 }
 .hero .col{
     float: left;
     width: 50%;
 }
 h1{
-    font-size: 75px;
+    font-size: 60px;
 }
 .hero p{
     padding: 25px 0px;
     font-size: 20px;
 }
-
+.hero .btn{
+    padding: 25px;
+    display: inline-block;
+}
+.hero-bottom-bar{
+    background-color: #AFEBE4;
+    height: 80px;
+    border-top: 5px solid #33475B; ;
+    border-bottom: 5px solid #33475B;
+}
+.info{
+    padding-top: 25px;
+    font-size: 15px;
+}
+/* HUBS ECTION */
+.hubs{
+    padding-top: 100px;
+}
+.integration-container{
+    text-align: center;
+}
+.integration-container img{
+    height: 250px;
+}
+.hubs-intro{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.hubs-intro h2{
+    font-size: 45px;
+}
+.hubs-intro p{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
 /* UTILITIES */
 .float-left{
     float: left;
@@ -96,7 +138,7 @@ h1{
     clear: both;
 }
 .wrap{
-    width: 1024px;
+    width: 1280px;
     margin: auto;
 }
 .width-100-perc{
