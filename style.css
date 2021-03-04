@@ -161,9 +161,6 @@ h2{
 .free-hubspot-crm .img-container{
     padding:35px;
 }
-.free-hubspot-crm .btn{
-    padding:25px;
-}
 .free-hubspot-crm .row{
     position: relative;
     padding:50px;
@@ -202,10 +199,24 @@ h2{
 }
 .col-3{
     width: 30%;
-    padding:25px;
+    padding:50px;
 }
 .hub-3-col li{
     text-align: left;
+}
+.hub-3-col ul{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.hub-3-col h4{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.hub-3-col li{
+    font-size: 20px;
+}
+.hub-3-col .checkmark{
+    margin-right: 10px;
 }
 
 /* UTILITIES */
@@ -251,4 +262,11 @@ h2{
     height: 17px;
     width: 17px;
     transform: translateY(2px);
+}
+.big-btn{
+    padding:20px 35px;
+}
+.translate-y{
+    transform: translateY(50px);
+    margin-bottom:50px;
 }
