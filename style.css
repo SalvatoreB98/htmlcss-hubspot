@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* SELETTORI DI TIPO */
+html{
+    font-family: sans-serif;
+}
+/* BARRA NAV */
+.earth-icon{
+    width: 25px;
+    height: 25px;
+}
+.contact-us{
+    border-left: 1px solid black ;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+nav img{
+    vertical-align: middle;
+}
+.btn{
+    padding: 10px;
+}
+.btn-orange{
+
+}
+.btn-white{
+    
+}
+nav span{
+    font-family: 'apple color emoji';
+}
+/* UTILITIES */
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
