@@ -18,6 +18,9 @@ h3{
 h4{
     font-size: 25px;
 }
+li{
+    list-style-type: none;
+}
 /* BARRA NAV */
 nav{
 
@@ -93,7 +96,7 @@ select{
 .hero .col{
     width: 50%;
 }
-h1{
+h2{
     font-size: 60px;
 }
 .hero p{
@@ -142,7 +145,6 @@ h1{
 }
 .free-hubspot-crm{
     width: 1280px;
-    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 
@@ -167,17 +169,45 @@ h1{
     padding:50px;
     padding-right: 100px;
 }
-.horizontal-line{
-    width: 350px;
+.free-hubspot-crm .horizontal-line{
+    width: 500px;
     margin-left: 35px;
     transform: translateY(15px);
-    border-bottom: 3px solid gray;
     float: left;
 }
-.check img{
-    height: 17px;
-    width: 17px;
+.check-container{
+    margin-top: 25px;
 }
+.free-hubspot-crm .check{
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 25px;
+}
+/* LAYOUT A 3 COLONNE */
+.hub-3-col{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.hub-3-col .central{
+    margin-left:  5%;
+    margin-right: 5%;
+}
+.hub-3-col .top-col-img{
+    height: 150px;
+    width: auto;
+}
+.hub-3-col h3{
+    margin-top: 25px;
+}
+.col-3{
+    width: 30%;
+    padding:25px;
+}
+.hub-3-col li{
+    text-align: left;
+}
+
 /* UTILITIES */
 .float-left{
     float: left;
@@ -200,6 +230,7 @@ h1{
 .col{
     float: left;
 }
+
 .w-70per{
     width: 70%;
 
@@ -209,7 +240,15 @@ h1{
 
 }
 .card-style{
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 10px #DDDD;
+}
+.horizontal-line{
+    border-bottom: 3px solid lightgray;
+}
+.checkmark{
+    height: 17px;
+    width: 17px;
+    transform: translateY(2px);
 }
