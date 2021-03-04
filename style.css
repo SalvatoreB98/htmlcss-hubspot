@@ -24,6 +24,9 @@ nav{
     width: 20px;
     height: 20px;
 }
+nav li{
+    display: inline-block;
+}
 nav a{
     color:#33475B;
     border-left: 1px solid black ;
@@ -78,7 +81,6 @@ select{
     padding: 100px 0px 200px 0px;
 }
 .hero .col{
-    float: left;
     width: 50%;
 }
 h1{
@@ -104,7 +106,9 @@ h1{
 }
 /* HUBS ECTION */
 .hubs{
+    width:100%;
     padding-top: 100px;
+    background-color: #F4F9FD;
 }
 .integration-container{
     text-align: center;
@@ -125,6 +129,9 @@ h1{
     padding-bottom: 50px;
     font-size: 20px;
 }
+.free-hubspot-crm{
+    background-color: white;
+}
 /* UTILITIES */
 .float-left{
     float: left;
@@ -143,4 +150,16 @@ h1{
 }
 .width-100-perc{
     width: 100%;
+}
+.col{
+    float: left;
+}
+.w-70per{
+    width: 70%;
+}
+.w-30per{
+    width: 30%;
+}
+.h500{
+    height: 500px;
 }
