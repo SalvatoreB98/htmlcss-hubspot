@@ -218,7 +218,23 @@ h2{
 .hub-3-col .checkmark{
     margin-right: 10px;
 }
-
+/* SECTION STATS */
+.stats{
+    background: #00baa8;
+    background: linear-gradient(90deg, #00a7ba 0%, #00baa8 100%);
+    padding: 150px 0px;
+}
+.section-header{
+    color: white;
+    text-align: center;
+}
+.stats h2{
+    font-size: 40px;
+}
+.stats p{
+    font-size: 17px;
+    margin: 35px 0px;
+}
 /* UTILITIES */
 .float-left{
     float: left;
