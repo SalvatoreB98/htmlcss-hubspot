@@ -113,10 +113,7 @@ h2{
     border-top: 5px solid #33475B; ;
     border-bottom: 5px solid #33475B;
 }
-.info{
-    padding-top: 25px;
-    font-size: 15px;
-}
+
 /* HUBS SECTION */
 .hubs{
     width:100%;
@@ -137,6 +134,7 @@ h2{
 }
 .hubs-intro h2{
     font-size: 45px;
+    font-weight: 900;
 }
 .hubs p{
     padding-top: 40px;
@@ -290,8 +288,6 @@ border-top: none;
     border-bottom: none;
 }
 /* CUSTOMERS SECTION */
-.customers{
-}
 .customers-number{
     font-size: 45px;
     font-weight: 900;
@@ -327,6 +323,30 @@ border-top: none;
     height: 100%;
 }
 /* START HUBSPOT SECTION */
+.start-hubspot{
+    padding: 20px 0px;
+}
+.start-hubspot h2{
+    font-size: 40px;
+}
+.start-hubspot p{
+    margin: 30px 0;
+    font-size:  20px;
+}
+.col-50{
+    width: 50%;
+}
+.img-start-hubspot{
+    height: 450px;
+    position: absolute;
+    right: 0;
+    transform: translate(15%,-15%);
+
+
+}
+.person-img-container{
+    position: relative;
+}
 
 /* UTILITIES */
 .float-left{
@@ -372,6 +392,15 @@ border-top: none;
     transform: translateY(2px);
 }
 .big-btn{
+    display: inline-block;
     padding:20px 35px;
+}
+.padding-right{
+    padding-right: 20px;
+}
+.info{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
 }
 /* UTILITIES TEMPORANEE */
