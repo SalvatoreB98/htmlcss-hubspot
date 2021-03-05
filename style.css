@@ -291,13 +291,27 @@ border-top: none;
 }
 /* CUSTOMERS SECTION */
 .customers{
-    height: 700px;
 }
-.customers-data{
+.customers-number{
+    font-size: 45px;
+    font-weight: 900;
+}
+.customers-data-col{
     width: 40%;
 }
-.customers-logo{
+.customers-logo-col{
     width: 60%;
+}
+.customers-data-wrap{
+    width: 40%;
+    margin: auto;
+}
+.customers .row{
+    padding: 100px 0px
+}
+.customers-description{
+    margin: 17px 0px;
+    line-height: 20%;
 }
 /* UTILITIES */
 .float-left{
