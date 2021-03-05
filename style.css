@@ -233,7 +233,7 @@ h2{
 .stats{
     background: #00baa8;
     background: linear-gradient(90deg, #00a7ba 0%, #00baa8 100%);
-    padding: 150px 0px;
+    padding: 100px 0px;
 }
 .section-header{
     color: white;
@@ -251,7 +251,7 @@ h2{
     border: 1px solid white;
     text-align: center;
     float: left;
-    width: 320px;
+    width: 316px;
     padding: 20px;
 }
 .icon-container{
@@ -277,7 +277,28 @@ padding: 10px;
     padding: 10px;
 }
 /* TABLE STYLE */
-
+.block-stats:nth-child(1),.block-stats:nth-child(5){
+border-left: none;
+}
+.block-stats:nth-child(4), .block-stats:nth-child(6),.block-stats:nth-child(8){
+    border-right: none;
+}    
+.block-stats:nth-child(1),.block-stats:nth-child(2),.block-stats:nth-child(3),.block-stats:nth-child(4){
+border-top: none;
+}
+.block-stats:nth-child(5),.block-stats:nth-child(6),.block-stats:nth-child(7),.block-stats:nth-child(8){
+    border-bottom: none;
+}
+/* CUSTOMERS SECTION */
+.customers{
+    height: 700px;
+}
+.customers-data{
+    width: 40%;
+}
+.customers-logo{
+    width: 60%;
+}
 /* UTILITIES */
 .float-left{
     float: left;
@@ -299,8 +320,7 @@ padding: 10px;
 }
 .col{
     float: left;
-}
-
+} 
 .w-70per{
     width: 70%;
 
@@ -324,4 +344,8 @@ padding: 10px;
 }
 .big-btn{
     padding:20px 35px;
+}
+/* UTILITIES TEMPORANEE */
+.h700{
+    height: 700px;
 }
