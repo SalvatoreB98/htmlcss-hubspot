@@ -262,8 +262,10 @@ padding: 10px;
    vertical-align: middle;
 }
 .plus{
+    display: inline-block;
+    transform: translateY(-4px);
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 300;
     vertical-align: middle;
 }
 .data-description{
