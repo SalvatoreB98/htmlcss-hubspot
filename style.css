@@ -46,7 +46,7 @@ nav{
 nav li{
     display: inline-block;
 }
-.contact-us{
+.nav-element{
     color:#33475B;
     border-left: 1px solid black ;
     margin-left: 25px;
