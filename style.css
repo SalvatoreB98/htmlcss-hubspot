@@ -45,14 +45,14 @@ nav{
 nav li{
     display: inline-block;
 }
-nav a{
+.contact-us{
     color:#33475B;
     border-left: 1px solid black ;
     margin-left: 25px;
     padding-left: 25px;
     text-decoration: none;
 }
-.nav-2 a{
+.nav-2 a,.float-right a{
     border:none;
 }
 nav img{
