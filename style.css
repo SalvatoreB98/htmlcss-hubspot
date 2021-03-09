@@ -85,7 +85,7 @@ select{
     background-image: url(img/jumbotron.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y:center ;
+    background-position-y: 75% ;
     background-position-x: center;
     padding: 100px 0px 200px 0px;
 }
@@ -407,10 +407,12 @@ footer .row ul{
     border: #FE775A 1px solid; 
 }
 .btn-white{
+    display: inline-block;
     box-sizing: border-box;
     background-color: #cbd6e2;;
     color:  #32495b;
     border: #cbd6e2 1px solid; 
+    margin-top: 20px;
     padding: 4px;
 }
 .float-left{
