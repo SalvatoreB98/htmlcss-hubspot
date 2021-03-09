@@ -41,6 +41,7 @@ nav{
 .earth-icon{
     width: 20px;
     height: 20px;
+    transform: translateY(-2px);
 }
 nav li{
     display: inline-block;
